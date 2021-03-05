@@ -1,0 +1,28 @@
+{
+    "name": "parfaitementweb/statamic-language-iso639-fieldtype",
+    "description": "Language dropdown with all ISO639 options values",
+    "autoload": {
+        "psr-4": {
+            "Parfaitementweb\\StatamicLanguageIso639Fieldtype\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alexis Serneels"
+        }
+    ],
+    "support": {
+        "email": "addons@parfaitementweb.com"
+    },
+    "extra": {
+        "statamic": {
+            "name": "Language Selector Fieldtype",
+            "description": "Language Selector Fieldtype"
+        },
+        "laravel": {
+            "providers": [
+                "Parfaitementweb\\StatamicLanguageIso639Fieldtype\\ServiceProvider"
+            ]
+        }
+    }
+}
