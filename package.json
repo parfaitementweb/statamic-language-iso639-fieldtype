@@ -19,5 +19,7 @@
         "postcss-preset-env": "^6.7.0",
         "vue-template-compiler": "^2.6.12"
     },
-    "dependencies": {}
+    "dependencies": {
+        "@cospired/i18n-iso-languages": "^2.2.0"
+    }
 }

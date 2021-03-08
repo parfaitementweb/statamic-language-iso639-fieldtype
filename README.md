@@ -25,8 +25,20 @@ We have made things easy for you start. Here is the three steps your need to fol
 
 3. **Enjoy.**
 
+## Built-in translations
+Language values are **automaticaly** displayed in current user locale, based on the current `locale` from the `App::getLocale()` value.
+
+The addon supports _Breton, Czech, Danish, German, English, Spanish, Finnish, French, Hungarian, Islandic, Italian, Japanese, Lithuanian, Latvian, Dutch, Norwegian, Polish, Portuguese, Romanian, Russian, Swedish, Chinese_.
+
 ## What does your addon look like?
 
 ![Statamic Language Selector Dropdown](https://parfaitementweb.com/statamic/statamic-language-iso639-fieldtype/fieldtype-preview.png)  
 
 ![Statamic Language Selector Options](https://parfaitementweb.com/statamic/statamic-language-iso639-fieldtype/fieldtype-options.png)
+
+## Changelog
+V1.0.1  
+📚 Language values are now displayed in current user locale.
+
+V1.0.0  
+🚀 Launching this awesome fieldtype to the world.

@@ -2,9 +2,8 @@
 
 namespace Parfaitementweb\StatamicLanguageIso639Fieldtype\Fieldtypes;
 
-use Statamic\Fields\Fieldtype;
+use Illuminate\Support\Facades\App;
 use Statamic\Fieldtypes\Select;
-use Statamic\Support\Arr;
 
 class LanguageSelector extends Select
 {
@@ -20,6 +19,11 @@ class LanguageSelector extends Select
     protected function configFieldItems(): array
     {
         return [
+            'language' => [
+                'display' => __('Language'),
+                'type' => 'hidden',
+                'default' => App::getLocale(),
+            ],
             'placeholder' => [
                 'display' => __('Placeholder'),
                 'instructions' => __('statamic::fieldtypes.select.config.placeholder'),
