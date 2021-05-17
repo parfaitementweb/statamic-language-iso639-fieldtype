@@ -5,6 +5,7 @@
 
 ## Features
 - Display a select field with **every ISO 639 language**.
+- Built-in localization in 22 languages. 
 - Set a **placeholder**.
 - Allow **multiple selections**.
 - Set a **maximum number of selectable items**.
